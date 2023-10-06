@@ -752,6 +752,30 @@ ul.feature-list {
     z-index: 2;
 	border-radius: 50%;
 	
+	
 	background: transparent;
 	
+}
+
+@media (max-width:1200){
+	.gmap_canvas iframe {
+		
+		z-index: 2;
+		border-radius: 50%;
+		
+		background: transparent;
+		
+	}
+}
+@media (max-width:991){
+	iframe  {
+		width: 10%;
+		height: 10%;
+		z-index: 2;
+		border-radius: 50%;
+		
+		
+		background: transparent;
+		
+	}
 }
